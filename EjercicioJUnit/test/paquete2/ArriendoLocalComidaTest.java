@@ -87,7 +87,7 @@ public class ArriendoLocalComidaTest {
             IllegalAccessException, NoSuchFieldException {
         System.out.println("establecerIva");
         double x = 0.0;
-        instance.establecerValorLuz(x);
+        instance.establecerIva(x);
         Field field = instance.getClass().getDeclaredField("iva");
         field.setAccessible(true);
         assertEquals(field.get(instance), 0.0);

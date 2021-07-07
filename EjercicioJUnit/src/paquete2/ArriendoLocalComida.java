@@ -55,7 +55,7 @@ public class ArriendoLocalComida extends Arriendo {
     public double obtenerIva(){
         return iva;
     }
-    
+    /*
     @Override
     public String toString(){
         String cadena = String.format("Ariendo de Local Comida\n"
@@ -74,6 +74,6 @@ public class ArriendoLocalComida extends Arriendo {
         
         return cadena;
     }
-    
+    */
         
 }
